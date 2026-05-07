@@ -8,10 +8,8 @@ memory limit per test: 256 megabytes
 ### PROBLEM
 Filip has a row of cells, some of which are blocked, and some are empty. He wants all empty cells to have water in them. He has two actions at his disposal:
 
-1
- — place water in an empty cell.
-2
- — remove water from a cell and place it in any other empty cell.
+- 1 — place water in an empty cell.
+- 2 — remove water from a cell and place it in any other empty cell.
 If at some moment cell i
  (2≤i≤n−1
 ) is empty and both cells i−1
