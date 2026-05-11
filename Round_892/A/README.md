@@ -15,7 +15,7 @@ Given an array a
  or c
 , in order to satisfy the following conditions:
 
-Both arrays b
+- Both arrays b
  and c
  are non-empty. More formally, let lb
  be the length of array b
@@ -23,12 +23,13 @@ Both arrays b
  be the length of array c
 . Then lb,lc≥1
 .
-For any two indices i
+- For any two indices i
  and j
  (1≤i≤lb,1≤j≤lc
 ), cj
  is not a divisor of bi
 .
+
 Output the arrays b
  and c
  that can be obtained, or output −1
