@@ -1,6 +1,5 @@
 # A. IQ test
 
-
 ### LIMIT
 time limit per test: 2 seconds
 
