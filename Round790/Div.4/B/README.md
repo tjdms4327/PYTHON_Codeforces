@@ -1,13 +1,13 @@
 # B. Equal Candies
 
 
-### LIMIT
+### Limit
 time limit per test: 1 second
 
 memory limit per test: 256 megabytes
 
 
-### PROBLEM
+### Problem
 There are n
  boxes with different quantities of candies in each of them. The i
 -th box has ai
