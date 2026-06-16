@@ -1,13 +1,13 @@
 # A. Marathon
 
 
-### LIMIT
+### Limit
 time limit per test: 1 second
 
 memory limit per test: 256 megabytes
 
 
-### PROBLEM
+### Problem
 You are given four distinct integers a
 , b
 , c
@@ -36,3 +36,22 @@ The description of each test case consists of four distinct integers a
 
 ### Output
 For each test case, output a single integer — the number of participants in front of Timur.
+
+### Note
+For the first test case, there are 2
+ people in front of Timur, specifically the participants who ran distances of 3
+ and 4
+. The other participant is not in front of Timur because he ran a shorter distance than Timur.
+
+For the second test case, no one is in front of Timur, since he ran a distance of 10000
+ while all others ran a distance of 0
+, 1
+, and 2
+ respectively.
+
+For the third test case, only the second person is in front of Timur, who ran a total distance of 600
+ while Timur ran a distance of 500
+.
+
+
+
