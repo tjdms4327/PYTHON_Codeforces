@@ -4,16 +4,24 @@ input = sys.stdin.readline
 t = int(input())
 for _ in range(t):
     input()
-    a = [list(input().strip()) for _ in range(8)]
+    matrix = [list(input().strip()) for _ in range(8)]
     
-    for r in range(1, 7):
-        for c in range(1, 7):
-            if (
-                a[r][c] == '#'
-                and a[r-1][c-1] == '#'
-                and a[r-1][c+1] == '#'
-                and a[r+1][c-1] == '#'
-                and a[r+1][c+1] == '#'
-            ):
-                print(r + 1, c + 1)
+    cand = [(idx, row) for idx, row in enumerate(matrix) if row.count('#')==1]
     
+    ans = (-1,-1)
+    for idx, row in cand:
+        col_idx = row.index('#')
+        if 0<idx<7:
+            if matrix[idx-1] == matrix[idx+1]:
+                ans = (idx+1, col_idx+1)
+                break
+        elif idx == 0:
+            if matrix[idx+1][col_idx-1:col_idx+2] == '#.#':
+                ans = (idx+1, col_idx+1)
+                break
+        elif idx == 7:
+            if matrix[idx-1][col_idx-1:col_idx+2] == '#.#':
+                ans = (idx+1, col_idx+1)
+                break
+    
+    print(*ans)
