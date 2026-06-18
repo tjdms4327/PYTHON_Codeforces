@@ -1,4 +1,4 @@
-# G. 2^Sort (https://codeforces.com/contest/1692/problem/G)
+# [G. 2^Sort](https://codeforces.com/contest/1692/problem/G)
 
 time limit per test: 1 second
 
