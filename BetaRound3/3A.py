@@ -1,8 +1,6 @@
 import sys
 input = sys.stdin.readline
 
-mapping = {}
-
 s = input().strip()
 x1, y1 = ord(s[0])-ord('a'), int(s[1])
 
