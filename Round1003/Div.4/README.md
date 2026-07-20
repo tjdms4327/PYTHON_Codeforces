@@ -1,7 +1,7 @@
 # [Round 1003](https://codeforces.com/contest/2065)
 
 ### Unsolved
-- C1. Skibidus and Fanum Tax (hard version)
+- C2. Skibidus and Fanum Tax (hard version)
 - D. Skibidus and Sigma
 - E. Skibidus and Rizz
 - F. Skibidus and Slay
